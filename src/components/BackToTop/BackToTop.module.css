@@ -1,0 +1,59 @@
+.btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 90;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow var(--transition-base);
+}
+
+.btn:hover {
+  box-shadow: var(--shadow-glow-blue);
+}
+
+.progressRing {
+  position: absolute;
+  inset: 0;
+  transform: rotate(-90deg);
+}
+
+.trackCircle {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 2;
+}
+
+.progressCircle {
+  fill: none;
+  stroke: url(#grad);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s linear;
+  stroke: var(--color-accent-blue);
+}
+
+.icon {
+  color: var(--color-text-primary);
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+  }
+}

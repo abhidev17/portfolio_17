@@ -1,18 +1,32 @@
 export const projects = [
   {
-    id: 1,
-    title: "Student Management System",
-    description: "A comprehensive full-stack application to efficiently manage student records with CRUD operations, authentication, and a responsive UI.",
-    longDescription: "Built with SvelteKit for the frontend and Node.js/Express.js for the backend, this application provides complete student record management. Features include secure authentication, real-time updates, and seamless MongoDB integration.",
-    tags: ["SvelteKit", "Node.js", "Express.js", "MongoDB"],
-    category: ["Node.js", "MongoDB"],
-    github: "https://github.com/abhidev17",
-    live: null,
-    featured: true,
-    color: "#6366f1",
-    icon: "🎓",
-    features: ["CRUD Operations", "Authentication", "Responsive UI", "MongoDB Integration"],
-    status: "Completed"
+    
+  id: 1,
+  title: "ChatSphere",
+  description:
+    "A production-grade real-time chat application inspired by Discord and WhatsApp. Built with React, Firebase Authentication, Firestore, and Vite for instant messaging and secure user authentication.",
+
+  features: [
+    "Google Authentication",
+    "Real-time Messaging",
+    "Multiple Chat Rooms",
+    "Emoji Support"
+  ],
+
+  tech: [
+    "React",
+    "Firebase",
+    "Vite",
+    "CSS"
+  ],
+
+  github: "https://github.com/abhidev17/react-firebase-chat-room",
+
+  live: "https://YOUR-CHATSPHERE-VERCEL-LINK.vercel.app",
+
+  featured: true,
+  completed: true
+
   },
   {
     id: 2,

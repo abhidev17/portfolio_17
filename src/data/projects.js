@@ -16,7 +16,7 @@ export const projects = [
 
   github: "https://github.com/abhidev17/react-firebase-chat-room",
 
-  live: "https://react-firebase-chat-room-ruddy.vercel.app",
+  live: "https://react-firebase-chat-room-one.vercel.app/login",
 
   featured: true,
 

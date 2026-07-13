@@ -1,10 +1,28 @@
 export const projects = [
-  {
+  
     
+  {
   id: 1,
   title: "ChatSphere",
   description:
-    "A production-grade real-time chat application inspired by Discord and WhatsApp. Built with React, Firebase Authentication, Firestore, and Vite for instant messaging and secure user authentication.",
+    "A production-grade real-time chat application inspired by Discord and WhatsApp.",
+
+  longDescription:
+    "Built with React, Firebase Authentication, Firestore and Vite. ChatSphere provides secure authentication, real-time messaging, multiple chat rooms and a modern responsive interface.",
+
+  tags: ["React", "Firebase", "Vite"],
+
+  category: ["React"],
+
+  github: "https://github.com/abhidev17/react-firebase-chat-room",
+
+  live: "https://react-firebase-chat-room-ruddy.vercel.app",
+
+  featured: true,
+
+  color: "#3b82f6",
+
+  icon: "💬",
 
   features: [
     "Google Authentication",
@@ -13,21 +31,10 @@ export const projects = [
     "Emoji Support"
   ],
 
-  tech: [
-    "React",
-    "Firebase",
-    "Vite",
-    "CSS"
-  ],
+  status: "Live"
+},
 
-  github: "https://github.com/abhidev17/react-firebase-chat-room",
-
-  live: "https://YOUR-CHATSPHERE-VERCEL-LINK.vercel.app",
-
-  featured: true,
-  completed: true
-
-  },
+  
   {
     id: 2,
     title: "QueueLessPrint",
